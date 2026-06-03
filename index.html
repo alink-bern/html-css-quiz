@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML- & CSS-Drag-and-Drop-Übung</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header>
+        <h1>HTML- &amp; CSS-Drag-and-Drop-Übung</h1>
+        <p>Teste dein Wissen, indem du viele Codeschnipsel den passenden Zielen zuordnest.</p>
+        <div class="difficulty-legend">
+          <span class="legend-item easy"><span class="legend-dot"></span>Leicht</span>
+          <span class="legend-item medium"><span class="legend-dot"></span>Mittelschwer</span>
+          <span class="legend-item hard"><span class="legend-dot"></span>Schwer</span>
+        </div>
+      </header>
+
+      <div id="challenge-area"></div>
+
+      <div class="actions">
+        <button id="check-btn">Antworten prüfen</button>
+        <button id="reset-btn" class="secondary">Zurücksetzen</button>
+      </div>
+
+      <div id="result" class="result-box" aria-live="polite"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
